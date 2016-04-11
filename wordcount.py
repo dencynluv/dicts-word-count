@@ -15,24 +15,27 @@ for line in data:
     line = line.rstrip()
 # spliting each line at the spaces and binding the line to data
     data = line.split(" ")
-# create if statement(with .get) that checks for keys in dictionary
-    # word_list = data.get()
+    # print data
+    # break
 
-if "As" in data:
-    quantity = data["As"]
-    print quantity
-else:
-    words["As"] = 1 
-    print words
-    print data 
+# create if statement(with .get) that checks for keys in dictionary
+    # words = data.get("As", )
+
+    if "As" in words:
+        #quantity = data["As"]
+        print "quantity"
+    else:
+        words["As"] = 1 
+        print words
+        # print data 
 
 
 # data = each unique word is a key     
 # now that we have the data
 # identify each unique word (by space on either side)
 # how do we count the number of times a word appears
-    # print data
-    # break
+    
+
 # data is a list 
 # we want to loop over this list 
 # and add every unique item to the words dictionary as a key
